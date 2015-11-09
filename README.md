@@ -1,6 +1,8 @@
 # egress
 Shut your node.js apps more gracefully.
 
+[![Circle CI](https://circleci.com/gh/intuitivcloud/egress.svg?style=svg&circle-token=75e21e88bdc5496bd8be734f3948e272890d7575)](https://circleci.com/gh/intuitivcloud/egress)
+
 `egress` allows you to add required shutd-down hooks to your node.js application so that you can perform
 any cleanup.
 
