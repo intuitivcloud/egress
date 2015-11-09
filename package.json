@@ -1,0 +1,36 @@
+{
+  "name": "egress",
+  "version": "1.0.0",
+  "description": "shut your node.js apps more gracefully",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intuitivcloud/egress.git"
+  },
+  "keywords": [
+    "egress",
+    "shutdown",
+    "hook",
+    "graceful",
+    "exit"
+  ],
+  "engines": {
+    "node": ">= 0.12.x",
+    "npm": ">= 2.14.x"
+  },
+  "author": "intuitivcloud Engineering <engineering@intuitivcloud.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/intuitivcloud/egress/issues"
+  },
+  "homepage": "https://github.com/intuitivcloud/egress#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^17.3.1",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}
